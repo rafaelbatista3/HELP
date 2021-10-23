@@ -1,51 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap%27');
-body{
-  margin:0;
+
+body {
+  margin: 0;
   padding: 0;
-    background: url(img/Fundo.jpeg) no-repeat center fixed;
-    background-size: cover;
-    background-position: center center;
+  background: url(img/Fundo.jpeg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
-.text{
-    font-family: 'Anton', sans-serif;
-    font-size: 3rem;
-    text-align: center;
-    padding: 30px;
-}
-.btn{
-    background: #064B00;
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
+.text {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  padding: 30px;
 }
 
+.btn {
+  background: #064B00;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+}
 
 .form-control {
-    background-color: #C4C4C4;
-font-family: 'Anton', sans-serif;
-margin-top: 30px;
-margin-bottom: 30px;
+  background-color: #C4C4C4;
+  font-family: 'Anton', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-.menu{
-    margin: auto;
-    font-family: 'Anton', sans-serif;
-    font-size: 20px;
-    width: 600px;
-  }
 
-  @media screen and (max-width: 760px) {
-    body {
-    background-image: url(img/Fundo.jpeg);
-    background-repeat: no-repeat;
-    background-size: 180vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: -9;
-    }
-    .menu {
-          margin-left: 10%;
-          width: 400px;
-      }
-    
+.menu {
+  margin: auto;
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  width: 600px;
+}
+
+@media screen and (max-width: 760px) {
+
+.menu {
+       width: 300px;
+   }
 }
