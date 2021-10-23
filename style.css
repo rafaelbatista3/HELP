@@ -18,3 +18,20 @@
 font-family: 'Anton', sans-serif;
 }
 
+@media screen and (max-width: 760px) {
+    body {
+    background-image: url(img/Fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 180vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: -9;
+    }
+    .text {
+   margin-left: 30%;
+}
+.menu {
+    margin-left: 10%;
+    width: 300px;
+}
+}
