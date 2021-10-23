@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap%27');
-body{
-    background-image: url(img/Fundo.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    overflow-y: hidden;
-    z-index: -9;
-}
+
 .text{
     font-family: 'Anton', sans-serif;
     font-size: 3rem;
@@ -24,13 +18,3 @@ body{
 font-family: 'Anton', sans-serif;
 }
 
-@media screen and (max-width: 760px) {
-    body {
-    background-image: url(img/Fundo.jpeg);
-    background-repeat: no-repeat;
-    background-size: 180vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: -9;
-    }
-}
